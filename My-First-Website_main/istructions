@@ -1,0 +1,68 @@
+Instructions to creat! Files 
+
+
+Okay, I understand! You're looking for a project that combines all the HTML skills you've learned in the past month, like a class assignment with clear instructions. Here's a project that fits that description:
+
+**Project Title:** "My Favorite Things" Website
+
+Project Goal: 
+    Create a website showcasing your favorite things, including your favorite song, websites, images, and  audio clips.
+
+**Instructions:**
+
+1. Create a Homepage:**
+   Title: "My Favorite Things"
+   Include a heading: "Welcome to My Favorite Things!"
+    Write a brief paragraph introducing yourself and the purpose of the website.
+   Add a navigation menu with links to the following pages:
+     - "My Favorite Song"
+     - "My Favorite Websites"
+     - "My Favorite Images"
+     - "My Favorite Audio"
+
+2. **My Favorite Song Page:**
+   - Title: "My Favorite Song"
+   - Include the song title as a heading (e.g., "Hey There Delilah").
+   - Add the song lyrics using the `<pre>` tag to preserve formatting.
+   - Include an audio player with the song (if available).
+   - Link back to the Homepage.
+
+3. **My Favorite Websites Page:**
+   - Title: "My Favorite Websites"
+   - Include a heading: "Check out These Awesome Websites!"
+   - Add links to your favorite websites (at least 3).
+   - Write a brief description for each website.
+   - Link back to the Homepage.
+
+4. **My Favorite Images Page:**
+   - Title: "My Favorite Images"
+   - Include a heading: "My Favorite Images"
+   - Add at least 3 images using the `<img>` tag.
+   - Provide alt text for each image.
+   - Link back to the Homepage.
+
+5. **My Favorite Audio Page:**
+   - Title: "My Favorite Audio"
+   - Include a heading: "Listen to This!"
+   - Add an audio player with your favorite audio clip.
+   - Write a brief description of the audio clip.
+   - Link back to the Homepage.
+
+**Bonus Challenges:**
+
+- **Add a Contact Page:** Create a form with fields for name, email, and a message. (This form won't be functional yet, but it's good practice.)
+- **Use CSS for Styling:** Add a separate CSS file to style your website with different fonts, colors, and layouts.
+- **Make it Accessible:** Ensure your website is accessible by using semantic HTML5 tags, ARIA attributes, and proper alt text.
+
+**Grading Rubric:**
+
+- **Functionality:** All links and audio players work correctly.
+- **Content:** The website includes all required elements and information.
+- **Design:** The website is visually appealing and easy to navigate.
+- **Accessibility:** The website is accessible to users with disabilities.
+
+**Submission:**
+
+- Submit your project as a ZIP file containing all HTML files, images, and audio clips.
+
+This project will allow you to practice and demonstrate your HTML skills in a creative and meaningful way. Remember to have fun and personalize it to reflect your unique interests!

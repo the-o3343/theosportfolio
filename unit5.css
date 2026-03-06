@@ -1,0 +1,159 @@
+
+body{
+    background-color: rgb(30, 24, 24);
+    color: rgb(255, 255, 255);
+}
+
+
+.container{ /* container for header */
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    background-color: rgb(47, 45, 45);
+    flex-wrap: wrap;
+    padding: 5px;
+}
+
+.logobox{
+    display: flex;
+    flex-direction: r;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+    width: 100px;
+    height: 100%;
+}
+
+
+
+.logs{/* styled for logo in the header*/
+    width: 50px;
+    height: 10vb;
+    padding: 15px;
+    box-shadow: 2px 2px 10px rgb(68, 86, 90);
+
+}
+
+a.button{ /* styled for header button*/
+    min-width: 150px;
+    justify-content: center;
+    align-items: flex-end;
+    display: flex;
+    text-decoration: none;
+    color: rgb(48, 45, 39);
+    font-weight: block;
+    padding: 30px;
+    background-color: rgba(255, 244, 244, 0.5);
+    border-radius: 30px;
+    margin: 10px auto;
+    text-align: center;
+    font-size: 20px;
+    transition: background-color 0.3s ease;
+    box-shadow: 2px 2px 10px rgb(68, 86, 90);
+    text-align: center;
+}
+
+a.button img{
+    vertical-align:baseline; /* vertical align forces the images to stay on the same baseline as any giving text or Element*/
+    height: 40px;
+    width: 40px;
+}
+a.button.links{
+    background-color: rgba(6, 6, 6, 0.8);
+    color: rgb(255, 255, 255);
+}
+
+a.button.external_button{ /* external download button will have exclusive green color only existed within index.html per project. This is a universal design for All external button. */
+    background-color: rgb(31, 191, 31);
+    color: white;
+    font-size: 30px;
+
+}
+a.button:hover{
+    color: black;
+    background-color: rgb(227, 227, 154);
+}
+
+.blockstyle_container{  /*  This container will separate each strips of colors using the properties below*/
+    display: flex;
+    flex-direction: row;
+    padding-right: 20px;
+    justify-content: center;
+    gap: 20px;
+    flex-direction: row;
+    min-height: 20vb;
+    flex-wrap: wrap;
+}
+
+.blockstyle{  /* universal style pattern. All block style will take this universal design unless specified with each children to be changed. */
+    display: block;
+    background-color: rgb(138, 138, 174);
+    text-align: center;
+    min-width: 300px;
+    min-height: 350px;
+    padding: 50px;
+    border-radius: 15px;
+    margin-bottom: 30px;
+    box-shadow: 10px 10px rgb(30, 24, 24);
+    position: relative;
+    font-size: 20px;
+    border-radius: 15%;
+}
+.external.flex{ /* this is the flex box within the flex box that can move the inner flex box towards the center.*/
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding: 20px;
+
+}
+.external_block{ 
+    padding: 40px;
+    min-height: 100px;
+    min-width: 50px;
+    display: flex;
+    align-items: center;
+    gap: 20px;
+    flex-direction: column;
+    background-color: rgba(69, 69, 98,0.4);
+    border-radius: 15%;
+}
+
+.blockstyle a{
+    color: rgb(7, 198, 169);
+    position: absolute;
+    bottom: 10px;
+    left: 50px;
+    right: 50px ;
+
+}
+
+#Apple_Product{
+    background-color: rgb(92, 61, 154);
+    color: rgb(255, 255, 255)
+}
+
+#audio{
+    background-color: blueviolet;
+}
+
+#Vancouver_community_gathering{
+    padding:none;
+    max-width: 200px;
+}
+#teddy_bears_bar{
+    padding: none;
+    border-radius: 15%;
+    background-color: rgb(109, 65, 149);
+}
+
+#Theos_news{
+    background-color: purple;
+
+}
+
+
+footer{
+    color: white;
+}
+

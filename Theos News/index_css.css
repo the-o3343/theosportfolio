@@ -1,0 +1,59 @@
+header{
+    display: flex;
+    color: rgb(56, 56, 97);
+    text-align: center;
+    justify-content: space-evenly;
+    font-weight: bolder;
+    font-size: 20px;
+    padding-left: 10px;
+    padding-right: 20px;
+    background-color: rgb(248, 242, 233);
+    background-repeat: no-repeat;
+}
+
+
+.main_div{
+    background-color: rgb(210, 203, 203);
+    color: rgb(94, 73, 35);
+    display: flex;
+    gap: 20px;
+    /* flex-direction: column; */  
+}
+.buttion a{
+    display: inline-block;
+    text-decoration: none;
+    color: rgb(58, 53, 43);
+    font-weight: bolder;
+    background-color: rgba(128, 128, 128,0.5);
+    padding: 10px;
+    border-radius: 30px;
+    margin: 10px auto;
+    text-align: center;
+    transition: background-color 0.3s ease;
+    box-shadow: 5px 5px 12px rgb(68, 86, 90);
+}
+.buttion a:hover{
+    background-color: black;
+    background-color: rgb(227, 227, 154);
+}
+.buttion{
+    margin-bottom: 300px;
+}
+
+.slider{
+   width: 200px;
+   height: auto;
+   background-color: rgb(175, 179, 183);
+   padding: 20px;
+   margin: 20px;
+}
+.input{
+    background-color: rgba(188, 194, 199,0.8);
+    border-radius: 35px;
+    box-shadow: 5px 5px 5px rgb(89, 103, 114);
+}
+
+.main_contnet{
+    color: rgb(0, 0, 0);
+    
+}

@@ -1,0 +1,150 @@
+
+#address{
+    color: rgb(28, 149, 119);
+}
+
+.button{
+    display: inline-block;
+    padding: 5px 5px;
+    background-color: green;
+    color: yellow;
+    text-decoration: none;
+    border-radius: 10%;
+    font-weight: bold;
+    text-align: center;
+    transition: background-color 0.3s ease;
+
+}
+
+.button:hover{
+    background-color: rgb(20, 19, 19);
+    border-radius: 20%;
+
+}
+/* display: inline-block - Makes the link behave like a button
+
+padding - Adds space inside the button
+
+text-decoration: none - Removes the underline
+border-radius - Rounds the corners
+
+transition - Smooth color change on hover
+*/
+
+body{
+    background-color: rgb(77, 59, 14);
+}
+
+
+header a{
+    display: inline-block;
+    background-color: rgb(98, 29, 29);
+    text-decoration: none;
+    border-radius: 15px;
+    padding: 5px;
+    margin: 5px auto;
+    color: rgb(136, 245, 63);
+    text-align: center;
+    transition: background-color 0.3s ease;
+    
+}
+header a:hover{
+    background-color: black;
+    border-radius: 15px;
+    
+}
+
+#website_tittle{
+    color: aquamarine;
+    text-align: center;
+    font-size: 40px;
+    margin-top: 20px;
+}
+
+
+#event_name{
+    color: bisque;
+    text-align: center;
+    font-weight: bold;
+    font-size: 36px;
+}
+
+.paragraph p{
+    color: aliceblue;
+    padding-left: 20px;
+    max-width: 900px;
+    font-size: 26px;
+}
+.paragraph{
+    margin-bottom: 50px;
+}
+
+#intro_paragraph{
+    color: aliceblue;
+    padding-left: 20px;
+    margin-top: 20px;
+    font-size: 29px;
+    font-style: italic;
+}
+.date_time{
+    color: rgb(141, 236, 199);
+    padding-left: 20px;
+    max-width: 900px;
+    font-size: 30px;
+}
+.date_time h2 {
+    text-align: center;
+    font-size: 30px;
+    font-weight: bold;
+}
+.date_time ul{
+    font-style: italic;
+    font-size: 20px;
+}
+#contact_me{
+    color: aquamarine;
+    font-size: 26px;
+    margin-bottom: 30px;
+}
+
+.event_block {
+    
+    background-color: #1c2631;  /* Dark blue-gray background */
+    width: 400px;                /* Base size - CHANGE THIS to resize */
+    padding: 5%;                 /* % padding scales with block size */
+    margin: 20px auto;
+}
+.event_block a{
+    margin: 20px auto;
+}
+
+footer{
+    background-color: rgb(55, 43, 12);
+    color: aqua; 
+    padding-bottom: 10px;   
+    margin-bottom: 10px;
+    text-align: center;
+}
+
+.footer_class a{
+    display: inline-block;
+    background-color: rgb(98, 29, 29);
+    text-decoration: none;
+    border-radius: 30%;
+    padding: 10px;
+    margin: 10px auto;
+    color: rgb(136, 245, 63);
+    text-align: center;
+    transition: background-color 0.3s ease;
+}
+.footer_class a:hover{
+    background-color: black;
+    border-radius: 30%;
+}
+.Guidelines{
+    color: rgb(234, 211, 255);
+    font-size: 26px;
+}
+
+
+

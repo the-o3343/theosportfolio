@@ -1,0 +1,107 @@
+<!DOCTYPE html>
+<html>
+  <head> 
+    <link rel="stylesheet" href="event.css">
+  </head>
+
+
+<!--
+5.03 Classes and IDs
+
+5.03 Lesson
+In CSS, classes and IDs let you target specific HTML elements more precisely than element selectors like p or h1.
+
+- They are added as attributes to your HTML, just like "src" or "style". (We've already experimented with IDs for navigation!)
+- An ID is used for one unique element on a page.
+- In CSS, IDs start with a #
+- A class can be used on multiple elements.
+- In CSS, classes start with a .
+- There are many strategies to naming your classes and IDs effeciently.
+
+Example HTML
+-->
+
+<!-- <h2 class="section-heading">About Me</h2> -->
+
+<!-- 
+Example CSS
+
+.section-heading {
+  font-size: 44px;
+}
+
+-->
+
+<!--
+
+5.03 Lab
+
+Lab: Multi-Page Event Website
+Create a website for a fictional event (concert, tournament, festival, game night, charity event, etc.). 
+The site will have two simple pages that share styles.
+
+Pages to Create
+index.html – Event overview (title, date, short description)
+details.html – Event details (schedule, location, extra info)
+Both pages should link to the same external CSS file.
+
+Requirements
+- Use at least two different class on multiple elements across both pages (for example: event details, info blocks, or highlighted text) and style that class in CSS.
+- Use at least two unique ID per page (IDs must not repeat on the same page) to style a special element like a page title or featured section.
+- Add a navigation link on each page so you can move between index.html and details.html.
+- (Challenge) On one element, combine a class and an ID, then observe which styles win.
+-->
+  <body>
+<div class="button_style">
+    <header>
+      <nav>
+        <a href="index.html">Home Page</a>
+        <a href="event_page.html">Event Page</a>
+      </nav>
+    </header>
+    </div>
+    
+
+    <h1 id="website_tittle">Check Out Our Event </h1>
+
+
+    <div class="event_block">
+    <h1 id="event_name"> Vancouver Community Gathering </h1>
+    
+    <div id="intro_paragraph">
+    <p> John us to for an eventful day of food, party and games building 
+friendship communties and more. We love to see all of you to come. </p>
+    </div>
+    
+      <div class="date_time"> <!-- Using the Div I will put them all under one class so I can be more precise in the styleing of the code.-->
+      <h2> Date, Time and Location</h2> 
+        <ul>
+        <li>Tuesday, Jan 19 2027 </li>
+        <li>ABC NE 60th St
+        Vancouver, WA  98661 </li>
+    </ul>
+      <a href="event_page.html" class="button"> View Full Details</a>
+
+      </div> 
+
+    </div>
+
+     <footer>
+      &copy; All rights Reserved. Distributing of any content without verbal, written permission is strictly prohibited. 
+      <br>
+
+      <div class="footer_class">
+      <a href="about us.html">About US</a>  
+      <a href="privacy policy"> Privacy Policy</a>  
+      <br>
+      <a href="help_Center.html"> Help Center </a>  
+      <a href="legal_document.html"> Legal Documentation</a>  
+      <br>
+      <a href="Shop.html">Shop</a>  
+      <a href="Products.html"> Products Info</a>
+    </div>
+    </footer>
+
+
+  </body>
+</html>
