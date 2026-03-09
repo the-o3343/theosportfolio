@@ -13,6 +13,16 @@ body{
     flex-wrap: wrap;
     padding: 5px;
 }
+@media (max-width: 375px) {
+    .container{
+        display: flex;
+        flex: row;
+        align-items: center;
+        justify-content: center;
+        background-color: rgb(47, 45, 45);
+        flex-wrap: wrap;
+    }
+}
 
 .logobox{
     display: flex;
